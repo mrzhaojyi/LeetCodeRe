@@ -10,14 +10,22 @@ git remote add origin https://github.com/mrzhaojyi/LeetCodeRe.git
 ```
 查看并增加文件到本地
 ```
+git status
 git add *
+git commit -m 'first_commit'
 ```
-
+强制上传
+```
+git push -f orgin master
+```
+非强制上传
+```
+git push -u orgin master
+```
 ## 题目分类
 
 ### Hash相关
 
-* [sddddd](src/hash相关/q1_两数之和)
 * [q1_两数之和](src/hash相关/q1_两数之和)
 * [q387_字符串中的第一个唯一字符](src/hash相关/q387_字符串中的第一个唯一字符)
 
@@ -140,4 +148,4 @@ git add *
 
 ## 面试问题整理
 
-* [面试问题整理](/Rocket.md)
+* [面试问题整理](Rocket.md)
